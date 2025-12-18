@@ -35,7 +35,7 @@ def get_expected_distance(game_id, play_id):
         return match['predicted'].iloc[0]
     return None
 
-def animate_play(before_data, after_data, supplementary_row=None, save_path='jump/double_animation.gif', expected_distance=None):
+def animate_play(before_data, after_data, supplementary_row=None, save_path='play_animation.gif', expected_distance=None):
     """
     Animate play: pre-throw (fast), post-throw (slow) with distance graph, jump zone, and jump line
     """
